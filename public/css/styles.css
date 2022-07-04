@@ -20,15 +20,14 @@ body {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
-  color: #0a0a0a;
-  background: #fefefe;
-  background: #000;
+  color: #6d7761;
+  background: #f5f4e3;
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
 
 article {
-  background: #fefefe;
+  background: #f5f4e3;
 }
 
 h1,h2,h3,h4,h5,p{
@@ -51,7 +50,7 @@ h6{
 
 p{
   font-size: 15px;
-  color: #666;
+  color: rgb(72 68 54);
 }
 
 a {
@@ -82,7 +81,7 @@ a {
   width: 100%;
   max-width: 1200px;
   padding: 40px 50px 30px;
-  background: #fefefe;
+  background: #cbd5b6;
   border-bottom: 1px solid #eaeaea;
 }
 
@@ -108,7 +107,8 @@ a {
 nav {
   width: 100%;
   padding: 20px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #ebfee7;
+  background-color: #f1f0df;
 }
 
 nav a {
@@ -137,7 +137,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: #879487;
 }
 
 .sidebar-info-box {
@@ -159,7 +159,7 @@ nav a span {
 }
 
 .sidebar h5 {
-  color: #fefefe;
+  color: #f3f7dd;
   margin: 0 auto 0.5rem;
 }
 
@@ -167,7 +167,7 @@ nav a span {
   text-rendering: optimizeLegibility;
   line-height: 1.6;
   font-size: 14px;
-  color: #999
+  color: #efda95;
 }
 
 .sidebar a {
@@ -229,7 +229,7 @@ nav a span {
 
 .portfolio-intro h1 {
   font-size: 1.5rem;
-  color: #0a0a0a;
+  color: #a3a98b;
   margin: 0 auto 8px;
 }
 
@@ -239,6 +239,7 @@ nav a span {
   margin: 0 auto;
   padding-bottom: 40px;
   border-bottom: 1px solid #eaeaea;
+  /* text-shadow: 1px 2px white; */
 }
 
 .projects-box h5 {
@@ -247,7 +248,7 @@ nav a span {
   font-size: 13px;
   letter-spacing: 2.25px;
   text-transform: uppercase;
-  color: #222;;
+  color: #6d7259;
   margin: 0 auto 8px;
 }
 
@@ -262,7 +263,11 @@ nav a span {
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
 }
 
-
+.logo {
+  width: 150px;
+  margin-top: 30px;
+  margin-left:40px;
+}
 /* 
   About and project pages styles 
 */
@@ -296,7 +301,7 @@ nav a span {
   max-width: 255px;
   margin: auto 0 5px 0;
   padding: 0.85em 1em;
-  background-color: #333;
+  background-color: #96aa94;
   border: 1px solid transparent;
 }
 
@@ -310,7 +315,8 @@ nav a span {
   }
 
   .portfolio-intro h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+    text-shadow: 1px 2px #15150c;
   }
 
   .box {
@@ -333,6 +339,7 @@ nav a span {
 
   .cell h5 {
     font-size: 1.25rem;
+    text-shadow: 2px 1px #141410;
   }
 
   .grid {
