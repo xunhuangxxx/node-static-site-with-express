@@ -2,7 +2,7 @@
   "name": "static-site-with-express_v1",
   "version": "1.0.0",
   "description": "node-static-site-with-express",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -2,44 +2,41 @@
   "projects":
   [
     {
-     "id": 0, 
+     "id": "0", 
      "project_name": "Quote generator",
      "description": "A random quote generator",
      "technologies": ["JavaScript", "CSS", "HTML"],
      "live_link": "https://xunhuangxxx.github.io/random_quote_generator/",
      "github_link":"https://github.com/xunhuangxxx/random_quote_generator",
      "image_urls":[
-      "./img/project_0/quote_550_1.png",
-      "./img/project_0/quote_550_2.png",
-      "./img/project_0/quote_1200.png"             
+      "/static/img/project_0/quote_550_1.png",
+      "/static/img/project_0/quote_1200.png"             
       ]
     }
-    
+    ,
     {
-      "id": 1, 
+      "id": "1", 
       "project_name": "Responsive registration form",
       "description": "A form to sign up for newsletter",
       "technologies": ["CSS", "HTML"],
       "live_link": "https://xunhuangxxx.github.io/responsive_registration_form/",
       "github_link":"https://github.com/xunhuangxxx/responsive_registration_form",
       "image_urls":[
-        "./img/project_1/newsletter_550_1.png",
-        "./img/project_1/newsletter_550_2.png",
-        "./img/project_1/newsletter_1200.png"             
+        "/static/img/project_1/newsletter_550_1.png",
+        "/static/img/project_1/newsletter_1200.png"             
         ]
      }
-
+     ,
      {
-      "id": 2, 
+      "id": "2", 
       "project_name": "Interactive form",
       "description": "A form to register full stack conference",
       "technologies": ["JavaScript", "CSS", "HTML"],
       "live_link": "https://xunhuangxxx.github.io/interactive_form/",
       "github_link":"https://github.com/xunhuangxxx/interactive_form",
       "image_urls":[
-        "./img/project_2/interactive_form_550_1.png",
-        "./img/project_2/interactive_form_550_2.png",
-        "./img/project_2/interactive_form_1200.png"             
+        "/static/img/project_2/interactive_form_550_1.png",
+        "/static/img/project_2/interactive_form_1200.png"             
         ]
      }
   ]
