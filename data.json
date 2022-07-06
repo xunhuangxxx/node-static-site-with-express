@@ -38,6 +38,30 @@
         "/static/img/project_2/interactive_form_550_1.png",
         "/static/img/project_2/interactive_form_1200.png"             
         ]
+     },
+     {
+      "id": "3", 
+      "project_name": "Wheel of Success!",
+      "description": "A word guessing game",
+      "technologies": ["JavaScript", "CSS", "HTML"],
+      "live_link": "https://xunhuangxxx.github.io/word_guessing_game/",
+      "github_link":"https://github.com/xunhuangxxx/word_guessing_game",
+      "image_urls":[
+        "/static/img/project_3/wheel_550.png",
+        "/static/img/project_3/wheel_1200.png"             
+        ]
+     },
+     {
+      "id": "4", 
+      "project_name": "Pagination",
+      "description": "Data pagination and filtering",
+      "technologies": ["JavaScript", "CSS", "HTML"],
+      "live_link": "https://xunhuangxxx.github.io/data_pagination_and_filtering/",
+      "github_link":"https://github.com/xunhuangxxx/data_pagination_and_filtering",
+      "image_urls":[
+        "/static/img/project_4/pagination_550.png",
+        "/static/img/project_4/pagination_1200.png"             
+        ]
      }
   ]
 }

@@ -42,7 +42,7 @@ app.use(( req, res, next) => {
     err.message = 'Oops!Page not found.';
     console.error(err.status, err.message);
     res.render('page-not-found', {err});
-    next(err);   
+       
 });
 
 //global error handler
@@ -55,5 +55,5 @@ app.use((err, req, res, next) => {
     }
     console.error(err.status, err.message);
     res.render('error', {err});
-    next(err);
+    
 });
