@@ -25,7 +25,12 @@ app.get('/about', (req, res,) => {
 app.get('/project/:id', (req, res) => {
     const {id} = req.params;
     const project = projects.find(item => item.id ===id);
-    res.render('project', project);
+    if(project === undefined){
+       res.redirect('/page-not-found');  
+    }else{
+       res.render('project', project);
+    }
+   
 });
 
 /*   Error handlers   */
